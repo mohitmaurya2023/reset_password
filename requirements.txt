@@ -1,6 +1,0 @@
-pip
-streamlit
-pandas
-numpy
-email
-smtplib
