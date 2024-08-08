@@ -3,3 +3,4 @@ pandas
 numpy
 email
 smtplib
+pip
