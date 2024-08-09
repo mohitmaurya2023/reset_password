@@ -15,7 +15,7 @@ if p != p1 and st.button('Go to Login Page'):
     st.success("New Password Created Successfully.")
     st.balloons()
     st.write("You have been redirected to the login page")
-    redirect('http://localhost:8501/login')
+    redirect('https://resetpassword-c4qtkqjpgdnzx4xtttbtnk.streamlit.app/reset_password')
 
 
 # # Create a button to send the user to the login page
