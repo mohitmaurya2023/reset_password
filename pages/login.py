@@ -15,4 +15,4 @@ if em !=email_address and st.button('Login'):
     st.write('Enter correct detail')
     st.success('Login Successfully')
     st.write('You are redirect to Home Page')
-    redirect('http://localhost:8501/home')
+    redirect('https://resetpassword-c4qtkqjpgdnzx4xtttbtnk.streamlit.app/home')
