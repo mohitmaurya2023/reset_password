@@ -13,7 +13,7 @@ email_address = st.text_input('Enter your email address')
 # Create a function to send reset password email
 def send_reset_password_email(email_address):
     # Create a password reset link
-    reset_link = 'https://resetpassword-c4qtkqjpgdnzx4xtttbtnk.streamlit.app/'
+    reset_link = 'https://resetpassword-c4qtkqjpgdnzx4xtttbtnk.streamlit.app/reset_password'
     
     # Create an email message
     msg = EmailMessage()
