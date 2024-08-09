@@ -10,7 +10,7 @@ p = st.text_input('Enter New Password', type = 'password')
 p1 = st.text_input('Re-Enter New Password', type = 'password')
 
 
-if p != p1 and st.button('Go to Login Page'):
+if p != p1 and st.button('Reset Password'):
     st.error("Password doesn't match.")
     st.success("New Password Created Successfully.")
     st.balloons()
